@@ -6,7 +6,7 @@ This repository contains tools I've written for:
 - 🖥️ BIOS and firmware utilities
 
 ## Structure
-
+```
 investment-tools/
 ├── stock-analyzer/
 └── portfolio-tracker/
@@ -14,3 +14,4 @@ investment-tools/
 bios-tools/
 ├── bios-config-extractor/
 └── firmware-checker/
+```
