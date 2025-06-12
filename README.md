@@ -31,3 +31,8 @@ To keep this repository organized and consistent, the following naming rules are
 **Notes:**
 - For BIOS/EDK II tools, PascalCase is preferred for file names and folder names to match community conventions.
 - For general-purpose or Python tools, snake_case is acceptable for files and folders.
+
+### Bitcoin Buy Signal Generator
+- **Location**: `investment-tools/bitcoin-buy-signal`
+- **Description**: A Python script that generates Bitcoin buy signals based on technical indicators (EMA, RSI, halving cycles) and calculates the return rate. Outputs include an Excel file with buy signals and a plot of price and RSI.
+- **Details**: See [investment-tools/bitcoin-buy-signal/README.md](investment-tools/bitcoin-buy-signal/README.md)
