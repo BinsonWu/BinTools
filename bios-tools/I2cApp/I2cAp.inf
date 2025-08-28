@@ -1,0 +1,48 @@
+## @file
+#  Sample UEFI Application Reference EDKII Module
+#
+#  This is a sample shell application that will print "UEFI Hello World!" 
+#  to the UEFI Console based on PCD setting.
+#
+#  It demonstrates how to use the EDKII PCD mechanism to make code more flexible.
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = I2cAp
+  FILE_GUID                      = 6987936E-ED34-44db-AE97-1FA5E4ED2116
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+#
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64 IPF EBC
+#
+
+[Sources]
+  I2cAp.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  ShellPkg/ShellPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  PcdLib
+  ShellLib
+  BaseLib
+  UefiRuntimeServicesTableLib
+
+[Protocols]
+  gEfiMpServiceProtocolGuid
+  gEfiI2cIoProtocolGuid
+  gEfiI2cHostProtocolGuid
+  gEfiI2cMasterProtocolGuid
+  gEfiI2cEnumerateProtocolGuid
+  gEfiI2cBusConfigurationManagementProtocolGuid
+  gEfiPciIoProtocolGuid
+  gEfiMmioDeviceProtocolGuid
