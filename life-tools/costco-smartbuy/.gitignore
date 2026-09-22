@@ -1,0 +1,40 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production build
+dist
+dist-ssr
+*.local
+
+# Vercel
+.vercel
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+.pytest_cache/
+scripts/all_food_raw.json
+
+# Agent workspaces
+.agent_workspace/
+
+# Backups
+backups/
+*.bak
+
+.vercel

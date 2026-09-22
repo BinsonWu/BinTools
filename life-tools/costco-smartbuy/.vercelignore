@@ -1,0 +1,9 @@
+.venv/
+venv/
+node_modules/
+.git/
+.agent_workspace/
+*.db
+*.db.bak
+__pycache__/
+scripts/

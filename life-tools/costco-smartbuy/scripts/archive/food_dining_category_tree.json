@@ -1,0 +1,617 @@
+{
+  "type": "categoryHierarchyWsDTO",
+  "id": "8",
+  "name": "食品飲料",
+  "url": "/Food-Dining/c/8",
+  "subcategories": [
+    {
+      "id": "901",
+      "name": "飲料",
+      "url": "/Food-Dining/Drinks/c/901",
+      "subcategories": [
+        {
+          "id": "90304",
+          "name": "礦泉水、氣泡水",
+          "url": "/Food-Dining/Drinks/Water-Sparkling-Water/c/90304",
+          "subcategories": []
+        },
+        {
+          "id": "90208",
+          "name": "飲料、果汁",
+          "url": "/Food-Dining/Drinks/Beverages-Juice/c/90208",
+          "subcategories": []
+        },
+        {
+          "id": "90206",
+          "name": "咖啡",
+          "url": "/Food-Dining/Drinks/Coffee/c/90206",
+          "subcategories": [
+            {
+              "id": "902061",
+              "name": "淺烘焙",
+              "url": "/Food-Dining/Drinks/Coffee/c/902061",
+              "subcategories": []
+            },
+            {
+              "id": "902062",
+              "name": "中烘焙",
+              "url": "/Food-Dining/Drinks/Coffee/c/902062",
+              "subcategories": []
+            },
+            {
+              "id": "902063",
+              "name": "深烘焙",
+              "url": "/Food-Dining/Drinks/Coffee/c/902063",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "id": "90207",
+          "name": "茶葉、茶包",
+          "url": "/Food-Dining/Drinks/Tea/c/90207",
+          "subcategories": []
+        },
+        {
+          "id": "90101",
+          "name": "沖泡、沖調",
+          "url": "/Food-Dining/Drinks/Powdered-Drink-Mix-Cereal-Oats/c/90101",
+          "subcategories": []
+        },
+        {
+          "id": "90102",
+          "name": "賣場-酒",
+          "url": "/Food-Dining/Drinks/Wine-Liquor/c/90102",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "902",
+      "name": "零食",
+      "url": "/Food-Dining/Snacks/c/902",
+      "subcategories": [
+        {
+          "id": "90104",
+          "name": "堅果、肉乾",
+          "url": "/Food-Dining/Snacks/Nuts-Jerky/c/90104",
+          "subcategories": []
+        },
+        {
+          "id": "90201",
+          "name": "餅乾、洋芋片",
+          "url": "/Food-Dining/Snacks/Cookies-Chips/c/90201",
+          "subcategories": []
+        },
+        {
+          "id": "91003",
+          "name": "糖果、巧克力",
+          "url": "/Food-Dining/Snacks/Candies-Chocolates/c/91003",
+          "subcategories": []
+        },
+        {
+          "id": "90202",
+          "name": "糕餅甜點",
+          "url": "/Food-Dining/Snacks/Snack-Cakes/c/90202",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "907",
+      "name": "民生食材",
+      "url": "/Food-Dining/Groceries/c/907",
+      "subcategories": [
+        {
+          "id": "90601",
+          "name": "米、麵",
+          "url": "/Food-Dining/Groceries/Rice-Noodles/c/90601",
+          "subcategories": []
+        },
+        {
+          "id": "90702",
+          "name": "油調味",
+          "url": "/Food-Dining/Groceries/Cooking-Oil-Sauces/c/90702",
+          "subcategories": []
+        },
+        {
+          "id": "90701",
+          "name": "烘焙、南北雜貨",
+          "url": "/Food-Dining/Groceries/Baking-Dried-Goods/c/90701",
+          "subcategories": []
+        },
+        {
+          "id": "90703",
+          "name": "罐頭、調理食品",
+          "url": "/Food-Dining/Groceries/Canned-Prepared-Food/c/90703",
+          "subcategories": []
+        },
+        {
+          "id": "121402",
+          "name": "食品禮盒",
+          "url": "/Food-Dining/Groceries/Food/c/121402",
+          "subcategories": []
+        },
+        {
+          "id": "90304",
+          "name": "礦泉水、氣泡水",
+          "url": "/Food-Dining/Drinks/Water-Sparkling-Water/c/90304",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "905",
+      "name": "調理、罐頭食品",
+      "url": "/Food-Dining/Prepared-Canned-Food/c/905",
+      "subcategories": [
+        {
+          "id": "90501",
+          "name": "罐頭食品",
+          "url": "/Food-Dining/Prepared-Canned-Food/Canned-Food/c/90501",
+          "subcategories": []
+        },
+        {
+          "id": "90902",
+          "name": "調理食品",
+          "url": "/Food-Dining/Prepared-Canned-Food/Package-Food/c/90902",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "912",
+      "name": "有機食品",
+      "url": "/Food-Dining/Organic/c/912",
+      "subcategories": [
+        {
+          "id": "91201",
+          "name": "有機食品",
+          "url": "/Food-Dining/Organic/Organic/c/91201",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "908",
+      "name": "冷凍冷藏",
+      "url": "/Food-Dining/Frozen-Fresh-Food/c/908",
+      "subcategories": [
+        {
+          "id": "90801",
+          "name": "冷凍海鮮、肉品",
+          "url": "/Food-Dining/Frozen-Fresh-Food/Frozen-Seafood-Meat/c/90801",
+          "subcategories": []
+        },
+        {
+          "id": "90803",
+          "name": "冷凍蔬果",
+          "url": "/Food-Dining/Frozen-Fresh-Food/Frozen-Fruits-Vegetables/c/90803",
+          "subcategories": []
+        },
+        {
+          "id": "90804",
+          "name": "冷凍調理",
+          "url": "/Food-Dining/Frozen-Fresh-Food/Frozen-Meals/c/90804",
+          "subcategories": []
+        },
+        {
+          "id": "90805",
+          "name": "冷凍甜點、冰品",
+          "url": "/Food-Dining/Frozen-Fresh-Food/Frozen-Desserts-Ice-Cream/c/90805",
+          "subcategories": []
+        },
+        {
+          "id": "90802",
+          "name": "年菜",
+          "url": "/Food-Dining/Frozen-Fresh-Food/New-Year-Dishes/c/90802",
+          "subcategories": []
+        },
+        {
+          "id": "90901",
+          "name": "冷藏生鮮",
+          "url": "/Food-Dining/Frozen-Fresh-Food/Chilled-Fresh-Food/c/90901",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "909",
+      "name": "冷藏、生鮮食品",
+      "url": "/Chilled-Fresh-Foods/c/909",
+      "subcategories": [
+        {
+          "id": "90904",
+          "name": "冷藏肉製品、海鮮",
+          "url": "/Chilled-Fresh-Foods/Deli-Meat-Seafood/c/90904",
+          "subcategories": []
+        },
+        {
+          "id": "90903",
+          "name": "冷藏乳製品、雞蛋",
+          "url": "/Chilled-Fresh-Foods/Cheese-Dairy-Eggs/c/90903",
+          "subcategories": []
+        },
+        {
+          "id": "90905",
+          "name": "冷藏甜點",
+          "url": "/Chilled-Fresh-Foods/Chilled-Desserts/c/90905",
+          "subcategories": []
+        },
+        {
+          "id": "90906",
+          "name": "冷藏醬料、飲料、常備食品",
+          "url": "/Chilled-Fresh-Foods/Chilled-Sauces-Beverages-Pantry/c/90906",
+          "subcategories": []
+        },
+        {
+          "id": "90907",
+          "name": "冷藏即食料理",
+          "url": "/Chilled-Fresh-Foods/Chilled-Meals-Entrees/c/90907",
+          "subcategories": []
+        },
+        {
+          "id": "90910",
+          "name": "賣場-麵包、甜點",
+          "url": "/Chilled-Fresh-Foods/Bakery-Desserts/c/90910",
+          "subcategories": []
+        },
+        {
+          "id": "90908",
+          "name": "賣場-熟食部",
+          "url": "/Chilled-Fresh-Foods/Food-Court/c/90908",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "895",
+      "name": "Kirkland Signature 科克蘭",
+      "url": "/Food-Dining/Kirkland-Signature/c/895",
+      "subcategories": []
+    },
+    {
+      "id": "910",
+      "name": "Costco Frozen 冷凍食品",
+      "url": "/Chilled-Frozen-Food/Costco-Frozen/c/910",
+      "subcategories": [
+        {
+          "id": "91001",
+          "name": "Costco Frozen",
+          "url": "/Chilled-Frozen-Food/Costco-Frozen/Costco-Frozen/c/91001",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "GCY913",
+      "name": "Costco Grocery-常溫食品",
+      "url": "/Costco-Grocery/Costco-Grocery-Food/c/GCY913",
+      "subcategories": [
+        {
+          "id": "GCY91302",
+          "name": "Grocery-飲品",
+          "url": "/Costco-Grocery/Costco-Grocery-Food/Grocery-Beverages/c/GCY91302",
+          "subcategories": []
+        },
+        {
+          "id": "GCY91303",
+          "name": "Grocery-零食",
+          "url": "/Costco-Grocery/Costco-Grocery-Food/Grocery-Snacks/c/GCY91303",
+          "subcategories": []
+        },
+        {
+          "id": "GCY91304",
+          "name": "Grocery-常備食品、乾貨",
+          "url": "/Costco-Grocery/Costco-Grocery-Food/Grocery-Pantry-Dry-Goods/c/GCY91304",
+          "subcategories": []
+        },
+        {
+          "id": "GCY91305",
+          "name": "Grocery-調理、罐頭食品",
+          "url": "/Costco-Grocery/Costco-Grocery-Food/Grocery-Prepared-Canned-Food/c/GCY91305",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "913",
+      "name": "購物指南",
+      "url": "/Food-Dining/Buying-Guide/c/913",
+      "subcategories": [
+        {
+          "id": "911",
+          "name": "居家咖啡美學",
+          "url": "/Food-Dining/Buying-Guide/Coffee-Buying-Guide/c/911",
+          "subcategories": []
+        },
+        {
+          "id": "920",
+          "name": "鮭魚選購指南",
+          "url": "/Food-Dining/Buying-Guide/Salmon-Buying-Guide/c/920",
+          "subcategories": []
+        },
+        {
+          "id": "921",
+          "name": "牛肉選購指南",
+          "url": "/Food-Dining/Buying-Guide/Beef-Buying-Guide/c/921",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "918",
+      "name": "全部食品飲料",
+      "url": "/Food-Dining/All-Food-Dining/c/918",
+      "subcategories": [
+        {
+          "id": "CL8",
+          "name": "食品飲料",
+          "url": "/Food-Dining/All-Food-Dining/Food-Dining/c/CL8",
+          "subcategories": [
+            {
+              "id": "901",
+              "name": "飲料",
+              "url": "/Food-Dining/Drinks/c/901",
+              "subcategories": [
+                {
+                  "id": "90304",
+                  "name": "礦泉水、氣泡水",
+                  "url": "/Food-Dining/Drinks/Water-Sparkling-Water/c/90304",
+                  "subcategories": []
+                },
+                {
+                  "id": "90208",
+                  "name": "飲料、果汁",
+                  "url": "/Food-Dining/Drinks/Beverages-Juice/c/90208",
+                  "subcategories": []
+                },
+                {
+                  "id": "90206",
+                  "name": "咖啡",
+                  "url": "/Food-Dining/Drinks/Coffee/c/90206",
+                  "subcategories": [
+                    {
+                      "id": "902061",
+                      "name": "淺烘焙",
+                      "url": "/Food-Dining/Drinks/Coffee/c/902061",
+                      "subcategories": []
+                    },
+                    {
+                      "id": "902062",
+                      "name": "中烘焙",
+                      "url": "/Food-Dining/Drinks/Coffee/c/902062",
+                      "subcategories": []
+                    },
+                    {
+                      "id": "902063",
+                      "name": "深烘焙",
+                      "url": "/Food-Dining/Drinks/Coffee/c/902063",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "id": "90207",
+                  "name": "茶葉、茶包",
+                  "url": "/Food-Dining/Drinks/Tea/c/90207",
+                  "subcategories": []
+                },
+                {
+                  "id": "90101",
+                  "name": "沖泡、沖調",
+                  "url": "/Food-Dining/Drinks/Powdered-Drink-Mix-Cereal-Oats/c/90101",
+                  "subcategories": []
+                },
+                {
+                  "id": "90102",
+                  "name": "賣場-酒",
+                  "url": "/Food-Dining/Drinks/Wine-Liquor/c/90102",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "id": "902",
+              "name": "零食",
+              "url": "/Food-Dining/Snacks/c/902",
+              "subcategories": [
+                {
+                  "id": "90104",
+                  "name": "堅果、肉乾",
+                  "url": "/Food-Dining/Snacks/Nuts-Jerky/c/90104",
+                  "subcategories": []
+                },
+                {
+                  "id": "90201",
+                  "name": "餅乾、洋芋片",
+                  "url": "/Food-Dining/Snacks/Cookies-Chips/c/90201",
+                  "subcategories": []
+                },
+                {
+                  "id": "91003",
+                  "name": "糖果、巧克力",
+                  "url": "/Food-Dining/Snacks/Candies-Chocolates/c/91003",
+                  "subcategories": []
+                },
+                {
+                  "id": "90202",
+                  "name": "糕餅甜點",
+                  "url": "/Food-Dining/Snacks/Snack-Cakes/c/90202",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "id": "907",
+              "name": "民生食材",
+              "url": "/Food-Dining/Groceries/c/907",
+              "subcategories": [
+                {
+                  "id": "90601",
+                  "name": "米、麵",
+                  "url": "/Food-Dining/Groceries/Rice-Noodles/c/90601",
+                  "subcategories": []
+                },
+                {
+                  "id": "90702",
+                  "name": "油調味",
+                  "url": "/Food-Dining/Groceries/Cooking-Oil-Sauces/c/90702",
+                  "subcategories": []
+                },
+                {
+                  "id": "90701",
+                  "name": "烘焙、南北雜貨",
+                  "url": "/Food-Dining/Groceries/Baking-Dried-Goods/c/90701",
+                  "subcategories": []
+                },
+                {
+                  "id": "90703",
+                  "name": "罐頭、調理食品",
+                  "url": "/Food-Dining/Groceries/Canned-Prepared-Food/c/90703",
+                  "subcategories": []
+                },
+                {
+                  "id": "121402",
+                  "name": "食品禮盒",
+                  "url": "/Food-Dining/Groceries/Food/c/121402",
+                  "subcategories": []
+                },
+                {
+                  "id": "90304",
+                  "name": "礦泉水、氣泡水",
+                  "url": "/Food-Dining/Drinks/Water-Sparkling-Water/c/90304",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "id": "905",
+              "name": "調理、罐頭食品",
+              "url": "/Food-Dining/Prepared-Canned-Food/c/905",
+              "subcategories": [
+                {
+                  "id": "90501",
+                  "name": "罐頭食品",
+                  "url": "/Food-Dining/Prepared-Canned-Food/Canned-Food/c/90501",
+                  "subcategories": []
+                },
+                {
+                  "id": "90902",
+                  "name": "調理食品",
+                  "url": "/Food-Dining/Prepared-Canned-Food/Package-Food/c/90902",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "id": "912",
+              "name": "有機食品",
+              "url": "/Food-Dining/Organic/c/912",
+              "subcategories": [
+                {
+                  "id": "91201",
+                  "name": "有機食品",
+                  "url": "/Food-Dining/Organic/Organic/c/91201",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "id": "908",
+              "name": "冷凍冷藏",
+              "url": "/Food-Dining/Frozen-Fresh-Food/c/908",
+              "subcategories": [
+                {
+                  "id": "90801",
+                  "name": "冷凍海鮮、肉品",
+                  "url": "/Food-Dining/Frozen-Fresh-Food/Frozen-Seafood-Meat/c/90801",
+                  "subcategories": []
+                },
+                {
+                  "id": "90803",
+                  "name": "冷凍蔬果",
+                  "url": "/Food-Dining/Frozen-Fresh-Food/Frozen-Fruits-Vegetables/c/90803",
+                  "subcategories": []
+                },
+                {
+                  "id": "90804",
+                  "name": "冷凍調理",
+                  "url": "/Food-Dining/Frozen-Fresh-Food/Frozen-Meals/c/90804",
+                  "subcategories": []
+                },
+                {
+                  "id": "90805",
+                  "name": "冷凍甜點、冰品",
+                  "url": "/Food-Dining/Frozen-Fresh-Food/Frozen-Desserts-Ice-Cream/c/90805",
+                  "subcategories": []
+                },
+                {
+                  "id": "90802",
+                  "name": "年菜",
+                  "url": "/Food-Dining/Frozen-Fresh-Food/New-Year-Dishes/c/90802",
+                  "subcategories": []
+                },
+                {
+                  "id": "90901",
+                  "name": "冷藏生鮮",
+                  "url": "/Food-Dining/Frozen-Fresh-Food/Chilled-Fresh-Food/c/90901",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "id": "909",
+              "name": "冷藏、生鮮食品",
+              "url": "/Chilled-Fresh-Foods/c/909",
+              "subcategories": [
+                {
+                  "id": "90904",
+                  "name": "冷藏肉製品、海鮮",
+                  "url": "/Chilled-Fresh-Foods/Deli-Meat-Seafood/c/90904",
+                  "subcategories": []
+                },
+                {
+                  "id": "90903",
+                  "name": "冷藏乳製品、雞蛋",
+                  "url": "/Chilled-Fresh-Foods/Cheese-Dairy-Eggs/c/90903",
+                  "subcategories": []
+                },
+                {
+                  "id": "90905",
+                  "name": "冷藏甜點",
+                  "url": "/Chilled-Fresh-Foods/Chilled-Desserts/c/90905",
+                  "subcategories": []
+                },
+                {
+                  "id": "90906",
+                  "name": "冷藏醬料、飲料、常備食品",
+                  "url": "/Chilled-Fresh-Foods/Chilled-Sauces-Beverages-Pantry/c/90906",
+                  "subcategories": []
+                },
+                {
+                  "id": "90907",
+                  "name": "冷藏即食料理",
+                  "url": "/Chilled-Fresh-Foods/Chilled-Meals-Entrees/c/90907",
+                  "subcategories": []
+                },
+                {
+                  "id": "90910",
+                  "name": "賣場-麵包、甜點",
+                  "url": "/Chilled-Fresh-Foods/Bakery-Desserts/c/90910",
+                  "subcategories": []
+                },
+                {
+                  "id": "90908",
+                  "name": "賣場-熟食部",
+                  "url": "/Chilled-Fresh-Foods/Food-Court/c/90908",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

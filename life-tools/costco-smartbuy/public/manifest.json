@@ -1,0 +1,18 @@
+{
+  "name": "好市多 100g 比價與即時特價牆",
+  "short_name": "Costco 100g",
+  "description": "好市多買肉、生鮮、海鮮不再被大包裝總價混淆！一秒換算每 100g 單價，現場快速比價與即時優惠牆。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

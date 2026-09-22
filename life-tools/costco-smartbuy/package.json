@@ -1,0 +1,35 @@
+{
+  "name": "costco-100g-price-tracker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npx vercel deploy --prod --yes",
+    "update-promos": "python scripts/promo_pipeline/run_promo_pipeline.py --force",
+    "update-warehouse": "python scripts/warehouse_pipeline/run_warehouse_pipeline.py --force",
+    "update-daybuy": "python scripts/daybuy_pipeline/run_daybuy_pipeline.py --force",
+    "update-and-deploy": "python scripts/promo_pipeline/run_promo_pipeline.py --force && npx vercel deploy --prod --yes",
+    "dedup": "python scripts/deduplicate_products.py",
+    "add-item": "python scripts/add_product.py"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}
